@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Aprende a Programar - Caba</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Js -->
+    <div ondblclick="closePopUp()" id="containerPopUp">
+        <div id="popUp" class="app">
+            <i ondblclick="closePopUp()" class="fas fa-times"></i>
+            <div class="popUpWidth">
+                <div class="popUpf-direction">
+                    <div class="is-rg-pop">
+                        <div>
+                            <h2>Iniciar Sesion</h2>
+                        </div>
+                        <div class="hr-is-rg">
+                            <h3>|</h3>
+                        </div>
+                        <div>
+                            <h2>Registrarme</h2>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="img-login-2" src="./imgs/Login-amico.svg" alt="login svg">
+                    </div>
+                    <div class="c-pass-data">
+                        <div>
+                            <input type="email" name="emailPopUp" id="emailPopUp" placeholder="Correo Electronico">
+                        </div>
+                        <div>
+                            <input type="password" name="passwordPopUp" id="passwordPopUp" placeholder="Contraseña">
+                        </div>
+                        <div class="button-is-index-2">Iniciar Sesión</div>
+                    </div>
+                </div>
+                <div class="popUpf-direction-2">
+                    <div>
+                        <img class="img-login-pc" src="./imgs/Login-amico.svg" alt="login svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="contenedor-header-principal">
+            <div class="logo-header-index">
+                <h3>Caba</h3>
+            </div>
+            <div class="media-q-index">
+                <div class="input-index-header">
+                    <input class="input-index-index" type="search" name="" id="" placeholder="Buscar en Caba">
+                    <button class="input-index-index-2"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="nav-right-index">
+                        <nav class="nav-1">
+                            <ul class="ul-nav-1">
+                                <i class="fas fa-bars"></i>
+                                <li class="li-nav-1">Inicio</li>
+                                <li class="li-nav-1">Planes</li>
+                                <li class="li-nav-1">Cursos</li>
+                                <li class="li-nav-1">Contactanos</li>
+                            </ul>
+                        </nav>
+                </div>
+            </div>
+        </div>
+        <nav class="nav-2">
+            <ul class="ul-nav-2">
+                <li>Desarrollo Web</li>
+                <li>Desarrollo Movil</li>
+                <li>Desarrollo de videojuegos</li>
+                <li>Inteligencia Artificial</li>
+                <li>Machine Learning</li>
+                <li>Robotica</li>
+                <li>DevOps</li>
+                <li>Desarrollo Desktop</li>
+                <li>Programacion de SO</li>
+                <li>Ingles</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section-1-index">
+            <div class="section-1-div-1">
+                <div class="children-section-1-div-1">
+                    <h1> Conviertete en un Profesional y especializate con Nosotros </h1>
+                    <p> Con +2000 cursos para que puedas aprender, con docentes capacitados. </p>
+                    <div class="coloca-tu-c-index">
+                        <p>Coloca tu correo aqui para registrarte</p>
+                    </div>
+                    <div class="main-index-section-1-input">
+                        <input type="email" name="" id="" placeholder="Escribe tu correo electronico">
+                        <div onclick="displayIS()" class="button-is-index">Iniciar Sesion</div>
+                    </div>
+                </div>
+            </div>
+            <div class="blabla">
+                <img src="./imgs/JavaScript frameworks-pana.svg" alt="imagen de main code">
+            </div>
+        </section>
+        <section class="section-2-index">
+            <div class="hr-index"></div>
+            <div class="section-2-div-1">
+                <h2>Cursos Exclusivos</h2>
+                <p>Ver todos los cursos</p>
+            </div>
+            <div class="contenedor-carrusel">
+
+                <div class="children-carrusel-index">
+                    <div>
+                        <img src="./imgs/carrusel js.jpg" alt="">
+                    </div>
+                    <div>
+                        <h4>Curso de JavaScript</h4>
+                        <p class="p-final-carrusel-index-area">Desarrollo Web</p>
+                    </div>
+                </div>
+
+                <div class="children-carrusel-index">
+                    <div>
+                        <img src="./imgs/carrusle python.jpg" alt="">
+                    </div>
+                    <div>
+                        <h4>Curso de Python</h4>
+                        <p class="p-final-carrusel-index-area">Analisis de Datos</p>
+                    </div>
+                </div>
+
+                <div class="children-carrusel-index">
+                    <div>
+                        <img src="./imgs/carrusel css.jpeg" alt="">
+                    </div>
+                    <div>
+                        <h4>Curso de CSS</h4>
+                        <p class="p-final-carrusel-index-area">Desarrollo Web</p>
+                    </div>
+                </div>
+
+                <div class="children-carrusel-index">
+                    <div>
+                        <img src="./imgs/carrusel-psishard.jpg" alt="">
+                    </div>
+                    <div>
+                        <h4>Curso de C#</h4>
+                        <p class="p-final-carrusel-index-area">Programacion Estructurada</p>
+                    </div>
+                </div>
+
+                <div class="children-carrusel-index">
+                    <div>
+                        <img src="./imgs/carrusel c++.png" alt="">
+                    </div>
+                    <div>
+                        <h4>Curso de C++</h4>
+                        <p class="p-final-carrusel-index-area">Desarrollo de Videojuegos</p>
+                    </div>
+                </div>
+
+                <div class="children-carrusel-index">
+                    <div>
+                        <img src="./imgs/carrusel linux.jpg" alt="">
+                    </div>
+                    <div>
+                        <h4>Curso de Linux</h4>
+                        <p class="p-final-carrusel-index-area">Introduccion al Hacking</p>
+                    </div>
+                </div>
+
+                <div class="children-carrusel-index">
+                    <div>
+                        <img src="./imgs/carrusel swift.jpg" alt="">
+                    </div>
+                    <div>
+                        <h4>Curso de Swift</h4>
+                        <p class="p-final-carrusel-index-area">Desarrollo Movil</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="section-3-div-1">
+                <h2>Carreras</h2>
+                <p>Mas Información</p> 
+            </div>
+
+            <div class="contenedor-carrusel">
+
+                <div class="children-carrusel-index">
+                    <div>
+                        <img src="./imgs/carreras/carrera front.jpg" alt="">
+                    </div>
+                    <div>
+                        <h4>Carrera Front-end Developer</h4>
+                        <div class="flex-carrusel-carreras-index">
+                            <p class="p-final-carrusel-index-area">Cinthia Muñoz</p>
+                            <p class="p-flex-carrusel-index">Mas Información</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="children-carrusel-index">
+                    <div>
+                        <img src="./imgs/carreras/back.jpg" alt="">
+                    </div>
+                    <div>
+                        <h4>Carerra Back-end Developer</h4>
+                        <div class="flex-carrusel-carreras-index">
+                            <p class="p-final-carrusel-index-area">Bryan Sanchez</p>
+                            <p class="p-flex-carrusel-index">Mas Información</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="children-carrusel-index">
+                    <div>
+                        <img src="./imgs/carreras/inteligencia{.jpg" alt="">
+                    </div>
+                    <div>
+                        <h4>Carrera de Inteligencia A.</h4>
+                        <div class="flex-carrusel-carreras-index">
+                            <p class="p-final-carrusel-index-area">Daniel Enriques</p>
+                            <p class="p-flex-carrusel-index">Mas Información</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="children-carrusel-index">
+                    <div>
+                        <img src="./imgs/carreras/mecanico automotriz.jpg" alt="">
+                    </div>
+                    <div>
+                        <h4>Carrera Mecanica Automotriz</h4>
+                        <div class="flex-carrusel-carreras-index">
+                            <p class="p-final-carrusel-index-area">Josh Quispe</p>
+                            <p class="p-flex-carrusel-index">Mas Información</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="children-carrusel-index">
+                    <div>
+                        <img src="./imgs/carreras/ciberseguridad.jpg" alt="">
+                    </div>
+                    <div>
+                        <h4>Carrera Ciberseguridad</h4>
+                        <div class="flex-carrusel-carreras-index">
+                            <p class="p-final-carrusel-index-area">Manu Castillo</p>
+                            <p class="p-flex-carrusel-index">Mas Información</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="section-4">
+            <div class="children-app-index">
+                <div class="section-4-div-1">
+                    <h2> Descarga nuestra app y obtén un cupon de descuento del 40% </h2>
+                        <div class="lista-flex-app-index-1">
+                            <div class="lista-flex-app-index">
+                                <ul>
+                                    <li>
+                                        <p>Cursos Practicos y Especializados</p>
+                                    </li>
+                                    <li>
+                                        <p> Accede a tus cursos 24/7 </p>
+                                    </li>
+                                    <li>
+                                        <p>Docentes expertos y capacitados</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="lista-flex-app-index">
+                                <ul>
+                                    <li>
+                                        <p>Certificate al culminar</p>
+                                    </li>
+                                    <li>
+                                        <p> Foro y respuestas a tus preguntas </p>
+                                    </li>
+                                    <li>
+                                        <p> Ruta de Aprendizaje </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    <div class="boton-descargar-app-index">Descargar Caba</div>
+                </div>
+                <div class="section-4-div-2">
+                    <img src="./imgs/app index.svg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+
